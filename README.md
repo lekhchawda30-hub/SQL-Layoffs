@@ -1,52 +1,61 @@
-Data Cleaning & Exploratory Data Analysis in MySQL
+📊 Data Cleaning, Exploratory Data Analysis & Visualization (MySQL + Tableau)
 
-📌 Project Overview
+🚀 Project Overview
 
-This project focuses on cleaning raw data and performing exploratory data analysis (EDA) using **MySQL**.
-The goal was to transform messy, inconsistent data into a structured format and then uncover useful insights.
+This project showcases the messy data transformed into a cleaned and visualised one
+
+1. **Data Cleaning in MySQL** – transformed raw, messy data into a structured, analysis-ready format.
+2. **Exploratory Data Analysis (EDA) in MySQL** – used queries to uncover patterns, trends, and insights.
+3. **Data Visualization in Tableau** – built interactive dashboards to present insights effectively.
 
 
- 🛠️ Tools & Technologies
 
-Database: MySQL
-GitHub
+## 🛠 Tools & Technologies
+
+* **Database:** MySQL
+* **Visualization:** Tableau
+* **Version Control:** GitHub
 
 ---
 
-🧹Data Cleaning Process
-
-Key cleaning steps performed:
+## 🧹 Data Cleaning Highlights (MySQL)
 
 * Removed duplicate records
 * Handled NULL and missing values
-* Standardized inconsistent text values (e.g., country names, job titles)
-* Converted data types (dates, numeric fields) into proper formats
-* Checked for outliers and incorrect entries
+* Standardized inconsistent text fields (e.g., country names, job titles)
+* Converted and validated data types (dates, numeric fields)
+* Ensured overall dataset consistency
 
 ---
 
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (MySQL)
 
-Some of the analysis performed:
+Performed analysis to answer key business-style questions:
 
-* Identified top categories/trends (e.g., by country, department, sales, etc.)
-* Aggregated data using `GROUP BY` and `HAVING`
-* Analyzed time trends using date functions
-* Used subqueries and joins to extract deeper insights
-
----
-
-📈 Key Insights
-
-* Cleaned dataset became **analysis-ready** with consistent formatting.
-* Discovered meaningful trends and patterns (e.g., top-performing regions/departments).
-* Learned how SQL can be used for both **data cleaning** and **exploratory analysis**.
+* Which regions/categories performed the best?
+* Year-over-year growth and time trends
+* Customer segmentation using `GROUP BY`, `HAVING`
+* Advanced insights using joins and subqueries
 
 ---
 
-🚀 How to Use This Project
+## 📈 Data Visualization (Tableau)
 
-1. Import the dataset into MySQL.
-2. Run `data cleaning.sql` to clean the raw data.
-3. Run `data exploration.sql` to explore and generate insights.
+Built **interactive dashboards** to present insights clearly:
 
+* Cummulative layoffs over time
+* regional analysis (layoffs by countries)
+* Layoffs by stages and industries
+
+📌 **View Dashboard Here:** [Tableau Public Link](https://public.tableau.com/views/Layoffs_17580549511690/Layofs?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+## 🔑 Key Insights
+
+* Cleaned messy raw dataset into a structured form for analysis.
+* SQL queries revealed meaningful patterns and business insights.
+* Tableau dashboards provided clear, interactive visualization for stakeholders.
+
+
+Do you want me to also make you a **LinkedIn post draft** (short + engaging) that you can publish to announce this Tableau update and share the GitHub + Tableau links?
